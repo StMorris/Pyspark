@@ -9,3 +9,21 @@ Apache Spark is written in Scala programming language, PySpark lets us work with
 PySpark supports most of Spark’s features such as Spark SQL, DataFrame, Streaming, MLlib (Machine Learning) and Spark Core.
 
 PySpark is very well used in Data Science and Machine Learning community due to its efficient processing of large datasets.
+
+
+### Pyspark installation
+
+PySpark provides pip installation from PyPI. This is usually for local usage or as a client to connect to a cluster instead of setting up a cluster itself.
+
+Pyspark supports Python 3.7 and above.
+
+pip install pyspark
+
+If you want to install extra dependencies for a specific component, you can install it as below: 
+# Spark SQL
+pip install pyspark[sql]
+# pandas API on Spark
+pip install pyspark[pandas_on_spark] plotly  # to plot your data, you can install plotly together.
+
+
+check the pyspark [installation page](https://spark.apache.org/docs/latest/api/python/getting_started/install.html) for other ways to install pyspark
