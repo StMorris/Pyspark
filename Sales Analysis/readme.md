@@ -1,2 +1,2 @@
 
-## Data preparation and analytics with Pyspark
+## Sales data preparation and analytics with Pyspark
